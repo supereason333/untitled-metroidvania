@@ -1,3 +1,11 @@
-[gd_scene format=3 uid="uid://bil0to7mmquwm"]
+[gd_scene load_steps=2 format=3 uid="uid://bil0to7mmquwm"]
 
-[node name="CanvasLayer" type="CanvasLayer"]
+[ext_resource type="Texture2D" uid="uid://dlakgjccv13pp" path="res://resources/gui textures/Vignette_(SuperTux).png" id="1_dvpol"]
+
+[node name="gui" type="CanvasLayer"]
+
+[node name="Vignette(superTux)" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.423529)
+position = Vector2(576, 324)
+scale = Vector2(0.9, 0.81)
+texture = ExtResource("1_dvpol")

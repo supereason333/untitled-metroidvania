@@ -1,8 +1,19 @@
-res://player/player.tscn
 res://testing/testing.tscn
+res://resources/tilesets/caves_tileset.tres
 res://menus/main_menu.tscn
 res://backgrounds/factory_bg.tscn
-res://dialogue system/dialouge system.tscn
-res://dialogue system/dialouge system.gd
-res://autoload/dialogue system/dialouge system.gd
-res://autoload/dialogue system/dialouge system.tscn
+res://player/player.tscn
+res://entities/components/interact_component.tscn
+res://entities/components/contact_damage_component.tscn
+res://entities/testing/testing_enemy.tscn
+res://entities/components/entityAI/basic_entity_ai.tscn
+res://resources/backgrounds/factory_bg.tscn
+res://autoload/game.gd
+res://map/utils/door.tscn
+res://map/utils/door.gd
+res://map_scenes/utils/door.tscn
+res://map_scenes/utils/door.gd
+res://player/player.gd
+res://testing/testing2.tscn
+res://map_scenes/utils/base_scene.tscn
+res://map_scenes/utils/base_scene.gd

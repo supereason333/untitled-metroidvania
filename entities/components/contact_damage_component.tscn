@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cppfd8vf7d1r8"]
+
+[ext_resource type="Script" path="res://entities/components/contact_damage_component.gd" id="1_h74j5"]
+
+[node name="ContactDamageComponent" type="Node"]
+script = ExtResource("1_h74j5")

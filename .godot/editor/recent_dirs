@@ -1,10 +1,12 @@
+res://map/utils
+res://resources/tilesets/textures
+res://resource_making/tilesets
+res://autoload
+res://entities/components/entityAI
+res://entities/components
+res://entities/base
+res://entities/testing
 res://gui
-res://autoload/dialogue system
-res://sprites/charc/fall
-res://sprites/charc/jump
-res://sprites/charc/run
-res://sprites/charc/idle
-res://backgrounds
 res://testing
 res://player
 res://menus

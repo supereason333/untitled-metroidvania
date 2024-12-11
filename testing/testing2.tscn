@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=4 uid="uid://xv3kby8nvvwn"]
+
+[ext_resource type="TileSet" uid="uid://b5u306q6fblfp" path="res://resources/tilesets/caves_tileset.tres" id="1_ph00h"]
+[ext_resource type="PackedScene" uid="uid://b0suhigc7rpv3" path="res://map_scenes/utils/door.tscn" id="2_ujhfw"]
+[ext_resource type="PackedScene" uid="uid://q4i0xkbxiiic" path="res://testing/testing.tscn" id="3_dpauk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bqie3"]
+size = Vector2(20, 52)
+
+[node name="Testing2" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAAkAAAADAAAAAAABAAkAAAAEAAAAAAACAAkAAAAFAAAAAAADAAkAAAADAAAAAAAEAAkAAAAEAAAAAAAFAAkAAAAFAAAAAAAGAAkAAAADAAAAAAAHAAkAAAAEAAAAAAAIAAkAAAAFAAAAAAAJAAkAAAADAAAAAAAKAAkAAAAEAAAAAAALAAkAAAAFAAAAAAAMAAkAAAADAAAAAAANAAkAAAAEAAAAAAAOAAkAAAAFAAAAAAAAAAUAAAADAAEAAAABAAUAAAAEAAEAAAACAAUAAAAFAAEAAAA=")
+tile_set = ExtResource("1_ph00h")
+
+[node name="Door" parent="." node_paths=PackedStringArray("collision_shape", "spawnpoint") instance=ExtResource("2_ujhfw")]
+collision_shape = NodePath("CollisionShape2D")
+spawnpoint = NodePath("Node2D")
+other_scene = ExtResource("3_dpauk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door"]
+position = Vector2(7, 118)
+shape = SubResource("RectangleShape2D_bqie3")
+
+[node name="Node2D" type="Node2D" parent="Door"]
+position = Vector2(43, 119)

@@ -1,70 +1,74 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698953237
-icon.svg::CompressedTexture2D::300723399864118866::1698538998::1698539001::1::::<><>::
+::res://::1733874741
+icon.svg::CompressedTexture2D::7802289354613601066::1698538998::1733340149::1::::<><>::
 README.md::TextFile::-1::1698819351::0::1::::<><>::
-::res://autoload/::1698953176
-::res://autoload/dialogue system/::1698952979
-dialouge system.gd::GDScript::-1::1698952978::0::1::::<>PanelContainer<>::
-dialouge system.tscn::PackedScene::8961541197725283577::1698952979::0::1::::<><>::res://autoload/dialogue system/dialouge system.gd
-::res://backgrounds/::1698952979
-bg_factory1.png::CompressedTexture2D::8577055186684326074::1696136924::1698539265::1::::<><>::
-bg_grad1.png::CompressedTexture2D::2946142692482399861::1696137009::1698539265::1::::<><>::
-factory_bg.tscn::PackedScene::5203424813721539583::1698952979::0::1::::<><>::uid://bh8esl5xx0ys0::::res://backgrounds/bg_grad1.png<>uid://dug1300mwgxpq::::res://backgrounds/bg_factory1.png
-::res://gui/::1698953163
-gui.tscn::PackedScene::2972192228317929480::1698953163::0::1::::<><>::
-::res://menus/::1698952979
-main_menu.tscn::PackedScene::4702563516039093898::1698952979::0::1::::<><>::
-::res://player/::1698953237
-player.gd::GDScript::-1::1698874109::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6425143480670811137::1698953237::0::1::::<><>::res://player/player.gd<>uid://c8qeim2ejoavy::::res://textures/sprites/charc/fall/fall1.png<>uid://7w5o14l5ppxp::::res://textures/sprites/charc/fall/fall2.png<>uid://bs2pvra2tyk1f::::res://textures/sprites/charc/idle/idle1.png<>uid://dwbmcsp66gaa3::::res://textures/sprites/charc/idle/idle2.png<>uid://bs87biivv6hty::::res://textures/sprites/charc/idle/idle3.png<>uid://bqnns8cjiq1w::::res://textures/sprites/charc/idle/idle4.png<>uid://dp4mf25i55651::::res://textures/sprites/charc/jump/jump1.png<>uid://d17hklxtk3dh1::::res://textures/sprites/charc/run/run1.png<>uid://c57gx5jipvjlw::::res://textures/sprites/charc/run/run2.png<>uid://d72l7h6f1heu::::res://textures/sprites/charc/run/run3.png<>uid://c2nx2q1imxgi4::::res://textures/sprites/charc/run/run4.png<>uid://co30adqeut6e7::::res://textures/sprites/charc/run/run5.png<>uid://t2bmvyflvutx::::res://textures/sprites/charc/run/run6.png<>uid://cbcjfqvd7dvh3::::res://textures/sprites/charc/run/run7.png<>uid://cf0gx1aatgu8s::::res://textures/sprites/charc/run/run8.png<>uid://b3ueobsngh6me::::res://textures/sprites/charc/run/run9.png<>uid://qptmyjvm2k4v::::res://textures/sprites/charc/run/run10.png<>uid://bvn8ggysprw2h::::res://textures/sprites/charc/run/run11.png
-::res://testing/::1698953235
-testing.tscn::PackedScene::1183420057427598338::1698953235::0::1::::<><>::uid://cgetv8kfh50a2::::res://backgrounds/factory_bg.tscn<>uid://cxsnf6uw6i618::::res://player/player.tscn<>uid://dprft2xf6mg2o::::res://textures/tilesets/grad tileset.png<>uid://cakfatg8cdduu::::res://textures/tilesets/slate metal tileset.png
-::res://textures/::1698953286
-::res://textures/gui textures/::1698953299
-Vignette_(SuperTux).png::CompressedTexture2D::7931957691708502237::1697960139::1698953302::1::::<><>::
-::res://textures/sprites/::1698874393
-::res://textures/sprites/charc/::1698539959
-::res://textures/sprites/charc/fall/::1698953237
-fall1.png::CompressedTexture2D::7122361078012772898::1696051739::1698953237::1::::<><>::
-fall2.png::CompressedTexture2D::2293307228850933073::1696052008::1698953237::1::::<><>::
-::res://textures/sprites/charc/idle/::1698953237
-idle1.png::CompressedTexture2D::3706507219250852721::1695959351::1698953237::1::::<><>::
-idle2.png::CompressedTexture2D::8706214134413611996::1695962318::1698953237::1::::<><>::
-idle3.png::CompressedTexture2D::3719889498152758946::1695962322::1698953237::1::::<><>::
-idle4.png::CompressedTexture2D::104032420431796506::1695962318::1698953237::1::::<><>::
-::res://textures/sprites/charc/jump/::1698953237
-jump1.png::CompressedTexture2D::8272700658279620322::1696051371::1698953237::1::::<><>::
-::res://textures/sprites/charc/run/::1698953237
-run1.png::CompressedTexture2D::9050675564851566004::1696050466::1698953237::1::::<><>::
-run2.png::CompressedTexture2D::6944973729861606536::1696050473::1698953237::1::::<><>::
-run3.png::CompressedTexture2D::278287314558703864::1696050477::1698953237::1::::<><>::
-run4.png::CompressedTexture2D::6696222644603862205::1696050479::1698953237::1::::<><>::
-run5.png::CompressedTexture2D::5814805862747663100::1696050482::1698953237::1::::<><>::
-run6.png::CompressedTexture2D::1389409515310239461::1696050484::1698953237::1::::<><>::
-run7.png::CompressedTexture2D::4847715221430483222::1696050487::1698953237::1::::<><>::
-run8.png::CompressedTexture2D::5175801770277024036::1696050491::1698953237::1::::<><>::
-run9.png::CompressedTexture2D::4393263810653757264::1696050493::1698953237::1::::<><>::
-run10.png::CompressedTexture2D::1155163492343733263::1696050496::1698953237::1::::<><>::
-run11.png::CompressedTexture2D::3889238039473264941::1696050498::1698953237::1::::<><>::
-::res://textures/sprites/entities/::1696393445
-::res://textures/sprites/entities/slime/::1696393445
-::res://textures/sprites/entities/slime/death/::1698953237
-death1.png::CompressedTexture2D::3834209226350004075::1696393524::1698953237::1::::<><>::
-death2.png::CompressedTexture2D::5499272214141950953::1696393577::1698953237::1::::<><>::
-::res://textures/sprites/entities/slime/idle/::1698953237
-idle1.png::CompressedTexture2D::5903314010710721722::1696392808::1698953237::1::::<><>::
-idle2.png::CompressedTexture2D::884978125811089870::1696392959::1698953237::1::::<><>::
-::res://textures/sprites/entities/slime/jump/::1698953237
-jump1.png::CompressedTexture2D::3432542690113969053::1696393190::1698953237::1::::<><>::
-jump2.png::CompressedTexture2D::583751947091699742::1696393338::1698953237::1::::<><>::
-::res://textures/sprites/items/::1698953237
-coin1.png::CompressedTexture2D::8642675019228958502::1698477408::1698953237::1::::<><>::
-coin2.png::CompressedTexture2D::7347546730115461715::1698477577::1698953237::1::::<><>::
-coin3.png::CompressedTexture2D::2751226328885635203::1698477822::1698953237::1::::<><>::
-coin4.png::CompressedTexture2D::131127108327681435::1698477577::1698953237::1::::<><>::
-::res://textures/sprites/testingSprites/::1698953237
-sign1.png::CompressedTexture2D::7866056268112371076::1698874344::1698953237::1::::<><>::
-::res://textures/tilesets/::1698953235
-grad tileset.png::CompressedTexture2D::8247528096446868972::1698874109::1698953235::1::::<><>::
-slate metal tileset.png::CompressedTexture2D::4793789738605275168::1698874109::1698953235::1::::<><>::
-tileset base.png::CompressedTexture2D::7799389108344454562::1698874109::1698953235::1::::<><>::
+::res://autoload/::1733874628
+game.gd::GDScript::-1::1733875144::0::1::::<>Node<>::
+::res://entities/::1733552318
+::res://entities/base/::1733530900
+base_entity.gd::GDScript::-1::1733530900::0::1::::BaseEntity<>CharacterBody2D<>::
+base_entity.tscn::PackedScene::6831889598698733545::1733461161::0::1::::<><>::res://entities/base/base_entity.gd
+::res://entities/components/::1733875027
+contact_damage_component.gd::GDScript::-1::1733460812::0::1::::<>Node<>::
+contact_damage_component.tscn::PackedScene::5856950396594667459::1733875027::0::1::::<><>::res://entities/components/contact_damage_component.gd
+interact_component.tscn::PackedScene::2528575452026608153::1733875027::0::1::::<><>::
+::res://entities/components/entityAI/::1733875027
+basic_entity_ai.gd::GDScript::-1::1733528068::0::1::::<>EntityAIComponent<>::
+basic_entity_ai.tscn::PackedScene::157905263712759489::1733875027::0::1::::<><>::res://entities/components/entityAI/basic_entity_ai.gd
+entity_ai_component.gd::GDScript::-1::1733526709::0::1::::EntityAIComponent<>Node2D<>::
+::res://entities/testing/::1733875027
+testing_enemy.gd::GDScript::-1::1733528018::0::1::::<>BaseEntity<>::
+testing_enemy.tscn::PackedScene::6924788378744374627::1733875027::0::1::::<><>::res://entities/testing/testing_enemy.gd<>uid://cppfd8vf7d1r8::::res://entities/components/contact_damage_component.tscn<>uid://b6exil287wdud::::res://resources/sprites/entities/slime/death.png<>uid://4i4sbcteiswo::::res://resources/sprites/entities/slime/idle.png<>uid://clh2x4wytesda::::res://resources/sprites/entities/slime/jump.png<>uid://ciqxaf82rae8::::res://entities/components/entityAI/basic_entity_ai.tscn
+::res://gui/::1733739260
+gui.tscn::PackedScene::2972192228317929480::1733739260::0::1::::<><>::uid://dlakgjccv13pp::::res://resources/gui textures/Vignette_(SuperTux).png
+::res://map_scenes/::1733874698
+::res://map_scenes/utils/::1733875028
+door.gd::GDScript::-1::1733875206::0::1::::<>Area2D<>::
+door.tscn::PackedScene::4179527844219597674::1733875206::0::1::::<><>::res://map_scenes/utils/door.gd
+::res://menus/::1733875027
+main_menu.tscn::PackedScene::4702563516039093898::1733875027::0::1::::<><>::
+::res://player/::1733875027
+gui.gd::GDScript::-1::1733528870::0::1::::<>Control<>::
+player.gd::GDScript::-1::1733874948::0::1::::Player<>BaseEntity<>::
+player.tscn::PackedScene::6425143480670811137::1733875027::0::1::::<><>::res://player/player.gd<>uid://vv622qsrhf4v::::res://resources/sprites/charc/fall.png<>uid://b5y806fik3hiu::::res://resources/sprites/charc/idle.png<>uid://3nd3xf4ja6lt::::res://resources/sprites/charc/jump1.png<>uid://cimnfyh8n0h2a::::res://resources/sprites/charc/run.png<>res://player/gui.gd<>uid://dlakgjccv13pp::::res://resources/gui textures/Vignette_(SuperTux).png
+::res://resources/::1733866897
+::res://resources/backgrounds/::1733875027
+factory_bg.tscn::PackedScene::5203424813721539583::1733875027::0::1::::<><>::uid://dug1300mwgxpq::::res://resources/backgrounds/textures/bg_factory1.png
+::res://resources/backgrounds/textures/::1733868613
+bg_factory1.png::CompressedTexture2D::8577055186684326074::1733868597::1733868613::1::::<><>::
+bg_grad1.png::CompressedTexture2D::2946142692482399861::1696137009::1733866905::1::::<><>::
+::res://resources/gui textures/::1733739261
+Vignette_(SuperTux).png::CompressedTexture2D::7931957691708502237::1697960139::1733739261::1::::<><>::
+::res://resources/sprites/::1698874393
+::res://resources/sprites/charc/::1733739261
+fall.png::CompressedTexture2D::1519249536133289739::1733461405::1733739261::1::::<><>::
+idle.png::CompressedTexture2D::4543681000866255104::1733461394::1733739261::1::::<><>::
+jump1.png::CompressedTexture2D::1992357902966086261::1696051371::1733739261::1::::<><>::
+run.png::CompressedTexture2D::5359924172306434346::1733461672::1733739261::1::::<><>::
+::res://resources/sprites/entities/::1733461901
+::res://resources/sprites/entities/slime/::1733739261
+death.png::CompressedTexture2D::4571943745682783303::1733461832::1733739261::1::::<><>::
+idle.png::CompressedTexture2D::2053784481097846306::1733461852::1733739261::1::::<><>::
+jump.png::CompressedTexture2D::5561051282026353918::1733461870::1733739261::1::::<><>::
+::res://resources/sprites/items/::1733739261
+coin1.png::CompressedTexture2D::8642675019228958502::1698477408::1733739261::1::::<><>::
+coin2.png::CompressedTexture2D::7347546730115461715::1698477577::1733739261::1::::<><>::
+coin3.png::CompressedTexture2D::2751226328885635203::1698477822::1733739261::1::::<><>::
+coin4.png::CompressedTexture2D::131127108327681435::1698477577::1733739261::1::::<><>::
+::res://resources/sprites/testingSprites/::1733739261
+sign1.png::CompressedTexture2D::7866056268112371076::1698874344::1733739261::1::::<><>::
+::res://resources/tilesets/::1733870225
+caves_tileset.tres::TileSet::4535119922916308637::1733870225::0::1::::<><>::uid://ct47pcpe24nru::::res://resources/tilesets/textures/caves_tileset.png
+::res://resources/tilesets/textures/::1733812222
+caves_tileset.png::CompressedTexture2D::6168266210491395938::1733812163::1733812222::1::::<><>::
+grad tileset.png::CompressedTexture2D::8247528096446868972::1698874109::1733776387::1::::<><>::
+slate metal tileset.png::CompressedTexture2D::4793789738605275168::1698874109::1733776387::1::::<><>::
+tileset base.png::CompressedTexture2D::7799389108344454562::1698874109::1733776387::1::::<><>::
+::res://resource_making/::1733866923
+::res://resource_making/backgrounds/::1733874741
+bg_factory1.png::CompressedTexture2D::7817575379565086776::1733871132::1733874741::1::::<><>::
+::res://resource_making/LORE/::1699008018
+LORE.txt::TextFile::-1::1699008018::0::1::::<><>::
+::res://resource_making/tilesets/::1733812211
+::res://testing/::1733875027
+testing.tscn::PackedScene::1183420057427598338::1733875027::0::1::::<><>::uid://cgetv8kfh50a2::::res://resources/backgrounds/factory_bg.tscn<>uid://cxsnf6uw6i618::::res://player/player.tscn<>uid://b5u306q6fblfp::::res://resources/tilesets/caves_tileset.tres<>uid://c5woiuk7gxl2j::::res://entities/testing/testing_enemy.tscn<>uid://b0suhigc7rpv3::::res://map_scenes/utils/door.tscn
